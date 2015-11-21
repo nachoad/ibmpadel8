@@ -171,7 +171,7 @@
           <div class="row">
             <div class="well">
               <div class="panel-body">
-                <p class="text-muted">Made by <a href="http://twitter.com/nachoad">@nachoad</a>.</p>
+                <p class="text-muted">Made by <a href="http://twitter.com/nachoad">@nachoad <i class="fa fa-twitter"></i></a>.</p>
                 <p class="text-muted">Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>. Oct. 2015.</p>
                 <p class="text-muted">Code at <a href="https://github.com/nachoad/ibmpadel8"><i class="fa fa-github"></i> Github</a>  (Please, let me know if this code helps you)</p>
 
@@ -342,6 +342,8 @@
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!--  <script src="../../dist/js/bootstrap.min.js"></script> -->
