@@ -15,6 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
@@ -47,9 +48,9 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#jugador">Datos por jugador</a></li>
-            <li><a href="#grafico">Gráfico</a></li>
-            <li><a href="#historico">Datos históricos</a></li>
+            <li><a href="#jugador"><i class="fa fa-user"></i> Datos por jugador</a></li>
+            <li><a href="#grafico"><i class="fa fa-bar-chart"></i> Gráfico</a></li>
+            <li><a href="#historico"><i class="fa fa-calendar"></i> Datos históricos</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -58,7 +59,7 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Torneo IBM Padel 8 Series.</h1>
+        <h1>Torneo IBM Padel 8 Series</h1>
         <p class="lead">Puntuaciones generales individuales e histórico de partidos.</p>
         <p class="text-muted"> Las puntuaciones se reseestablecen cuando cada jugador haya tenido de pareja el resto de jugadores.</p>
         <p class="text-muted"> Los sets con juegos empatados se resuelven dando ganador a ambos equipos.</p>
@@ -71,7 +72,7 @@
       ================================================== -->
       <div class="pull-right"><span><a name="jugador">∙</a></span></div>
       <div class="page-header">
-        <h1>Datos por jugador</h1>
+        <h1><i class="fa fa-user"></i> Datos por jugador</h1>
         <p class="text-info"> Clic en el título de la columna para ordenar </p>
       </div>
 
@@ -112,7 +113,7 @@
         <!-- Inicio. Gráfico -->
         <div class="pull-right"><span><a name="grafico">∙</a></span></div>
         <div class="page-header">
-          <h1>Gráfico</h1>
+          <h1><i class="fa fa-bar-chart"></i> Gráfico</h1>
           <p class="text-info">Visualización de los ratios por jugador. </p>
         </div>
 
@@ -132,7 +133,7 @@
 
         <div class="pull-right"><span><a name="historico">∙</a></span></div>
         <div class="page-header">
-          <h1>Histórico</h1>
+          <h1><i class="fa fa-calendar"></i> Histórico</h1>
           <p class="text-info">Datos históricos de los partidos</p>
         </div>
 
@@ -172,6 +173,8 @@
               <div class="panel-body">
                 <p class="text-muted">Made by <a href="http://twitter.com/nachoad">@nachoad</a>.</p>
                 <p class="text-muted">Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>. Oct. 2015.</p>
+                <p class="text-muted">Code at <a href="https://github.com/nachoad/ibmpadel8"><i class="fa fa-github"></i> Github</a>  (Please, let me know if this code helps you)</p>
+
               </div>
             </div>
           </footer>
@@ -193,14 +196,14 @@
               strokeColor : "rgba(91, 192, 220, 0.9)",
               highlightFill: "rgba(33, 150, 185, 0.75)",
               highlightStroke: "rgba(33, 150, 185, 1)",
-              data : [53.73,45.45,54.55,0,45.74,53.61,50,44.87,60,0,27.27,46.36,72.73,48.15]
+              data : [50,45.45,54.55,0,46.77,52.76,43.12,44.87,71.74,0,27.27,52.67,61.90,48.15]
             },
             {
               fillColor : "rgba(54,204,54, 0.8)",
               strokeColor : "rgba(54,204,54, 0.9)",
               highlightFill : "rgba(37, 160, 37, 0.75)",
               highlightStroke : "rgba(37, 160, 37, 1)",
-              data : [77.78,25,66.67,0,37.50,66.67,33.33,66.67,100,0,0,40,100,33.33]
+              data : [58.33,25,66.67,0,45.45,58.33,33.33,33.33,100,0,0,53.85,71.43,33.33]
             }
           ]
         }
