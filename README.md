@@ -3,7 +3,8 @@ Website to record the historical data of the games. It generates a rank of playe
 
 ## Technology
 - MySQL as database.
-- Programmed in HTML, PHP, JavaScript & CSS3.
+- Programmed in PHP, HTML, JavaScript & CSS3.
+- Chart.js [web](http://www.chartjs.org/) to the middle graph.
 - Uses [Bootstrap](http://getbootstrap.com/) to the visual interface. 
 
 ## Author
