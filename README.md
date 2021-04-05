@@ -12,4 +12,4 @@ It generates a rank of players based on number of games/plays won. You can sort 
 Nacho Alonso.
 
 ## URL
-* You can visit the website at [IBM Padel 8 Series](http://nachoad.com/ibmpadel8)
+* No longer available.
